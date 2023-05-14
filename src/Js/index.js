@@ -9,10 +9,10 @@ botaoAlterarTema.addEventListener("click", () => {
     body.classList.toggle("modo-escuro");
     if (modoEscuroEstaAtivo) {
         
-        imagemBotaoTrocaDeTema.setAttribute("src", "./IMG/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/IMG/sun.png");
     } else {
         
-        imagemBotaoTrocaDeTema.setAttribute("src", "./IMG/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/IMG/moon.png");
 
     }
 
